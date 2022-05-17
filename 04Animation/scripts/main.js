@@ -6,7 +6,7 @@ var myOtherBox = document.getElementById('myOtherBox');
 
 function spin(){
   myOtherBox.object3D.rotation.set(
-    THREE.Math.degToRad(20),
+    THREE.Math.degToRad(25),
     THREE.Math.degToRad(40),
     THREE.Math.degToRad(75)
   );
